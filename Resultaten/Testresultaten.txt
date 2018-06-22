@@ -1,0 +1,232 @@
+TEST RESULTATEN
+
+------------------------------------------------------------------------------------------
+NGRAM 1,1
+SGDClassifier
+-----------------
+> Starting 10 fold Cross-Validation
+> Training and predicting fold 10 out of 10
+             precision    recall  f1-score   support
+
+       Buma       0.21      0.47      0.29       606
+   Dijkhoff       0.33      0.17      0.22      1197
+     Klaver       0.32      0.56      0.41      2085
+Marijnissen       0.29      0.29      0.29       666
+   Pechtold       0.59      0.20      0.30      3814
+    Wilders       0.65      0.76      0.70      4900
+
+avg / total       0.51      0.48      0.46     13268
+
+
+                    Buma    Dijkhoff      Klaver Marijnissen    Pechtold     Wilders
+Buma                 285          17         104          34          35         131
+Dijkhoff             156         200         330          61         126         324
+Klaver               197          51        1174          91         139         433
+Marijnissen           62          15         158         195          40         196
+Pechtold             457         205        1281         192         754         925
+Wilders              175         118         594          94         182        3737
+
+> Final test on 10% of the data
+             precision    recall  f1-score   support
+
+       Buma       0.18      0.48      0.26        58
+   Dijkhoff       0.30      0.24      0.27       134
+     Klaver       0.54      0.35      0.42       241
+Marijnissen       0.52      0.24      0.33        71
+   Pechtold       0.54      0.23      0.32       444
+    Wilders       0.55      0.87      0.68       526
+
+avg / total       0.51      0.49      0.46      1474
+
+------------------------------------------------------------------------------------------
+
+NNGRAM 1,2
+SGDClassifier
+-----------------
+> Starting 10 fold Cross-Validation
+> Training and predicting fold 10 out of 10
+             precision    recall  f1-score   support
+
+       Buma       0.25      0.44      0.32       606
+   Dijkhoff       0.32      0.19      0.24      1197
+     Klaver       0.32      0.57      0.41      2085
+Marijnissen       0.32      0.30      0.31       666
+   Pechtold       0.58      0.25      0.35      3814
+    Wilders       0.67      0.75      0.71      4900
+
+avg / total       0.52      0.49      0.48     13268
+
+
+                    Buma    Dijkhoff      Klaver Marijnissen    Pechtold     Wilders
+Buma                 267          23         109          36          56         115
+Dijkhoff             127         222         327          54         163         304
+Klaver               153          64        1194          71         194         409
+Marijnissen           50          20         171         198          39         188
+Pechtold             357         222        1271         174         965         825
+Wilders              131         135         623          93         233        3685
+
+> Final test on 10% of the data
+             precision    recall  f1-score   support
+
+       Buma       0.15      0.55      0.24        58
+   Dijkhoff       0.30      0.22      0.25       134
+     Klaver       0.53      0.36      0.43       241
+Marijnissen       0.50      0.24      0.32        71
+   Pechtold       0.53      0.26      0.35       444
+    Wilders       0.60      0.85      0.70       526
+
+avg / total       0.52      0.49      0.47      1474
+
+------------------------------------------------------------------------------------------
+
+NNGRAM 1,3
+SGDClassifier
+-----------------
+> Starting 10 fold Cross-Validation
+> Training and predicting fold 10 out of 10
+             precision    recall  f1-score   support
+
+       Buma       0.31      0.36      0.34       606
+   Dijkhoff       0.27      0.14      0.18      1197
+     Klaver       0.35      0.39      0.37      2085
+Marijnissen       0.22      0.40      0.29       666
+   Pechtold       0.49      0.45      0.47      3814
+    Wilders       0.71      0.71      0.71      4900
+
+avg / total       0.51      0.50      0.50     13268
+
+
+                    Buma    Dijkhoff      Klaver Marijnissen    Pechtold     Wilders
+Buma                 221          29          62          52         150          92
+Dijkhoff              86         166         194         115         402         234
+Klaver                95          65         810         205         588         322
+Marijnissen           25          16          96         265         122         142
+Pechtold             190         220         735         335        1730         604
+Wilders               91         130         424         216         559        3480
+
+> Final test on 10% of the data
+             precision    recall  f1-score   support
+
+       Buma       0.21      0.38      0.27        58
+   Dijkhoff       0.24      0.40      0.30       134
+     Klaver       0.57      0.27      0.37       241
+Marijnissen       0.21      0.54      0.30        71
+   Pechtold       0.50      0.29      0.37       444
+    Wilders       0.69      0.77      0.73       526
+
+avg / total       0.53      0.48      0.48      1474
+------------------------------------------------------------------------------------------
+
+NGRAM 1,1
+LinearSVC
+------------------
+
+> Starting 10 fold Cross-Validation
+> Training and predicting fold 10 out of 10
+             precision    recall  f1-score   support
+
+       Buma       0.43      0.39      0.41       606
+   Dijkhoff       0.35      0.25      0.30      1197
+     Klaver       0.47      0.45      0.46      2085
+Marijnissen       0.39      0.33      0.36       666
+   Pechtold       0.54      0.54      0.54      3814
+    Wilders       0.70      0.79      0.74      4900
+
+avg / total       0.56      0.57      0.56     13268
+
+
+                    Buma    Dijkhoff      Klaver Marijnissen    Pechtold     Wilders
+Buma                 236          39          49          31         147         104
+Dijkhoff              64         304         118          32         412         267
+Klaver                50          72         938         106         563         356
+Marijnissen           22          27          88         220         132         177
+Pechtold             109         244         538         118        2054         751
+Wilders               71         171         250          57         486        3865
+
+> Final test on 10% of the data
+             precision    recall  f1-score   support
+
+       Buma       0.39      0.40      0.39        58
+   Dijkhoff       0.32      0.22      0.26       134
+     Klaver       0.47      0.47      0.47       241
+Marijnissen       0.41      0.37      0.39        71
+   Pechtold       0.52      0.49      0.51       444
+    Wilders       0.69      0.78      0.73       526
+
+avg / total       0.54      0.56      0.55      1474
+------------------------------------------------------------------------------------------
+
+NGRAM 1,2
+LinearSVC
+
+> Starting 10 fold Cross-Validation
+> Training and predicting fold 10 out of 10
+             precision    recall  f1-score   support
+
+       Buma       0.50      0.35      0.41       606
+   Dijkhoff       0.39      0.21      0.27      1197
+     Klaver       0.48      0.44      0.46      2085
+Marijnissen       0.47      0.28      0.35       666
+   Pechtold       0.53      0.57      0.55      3814
+    Wilders       0.68      0.80      0.74      4900
+
+avg / total       0.56      0.58      0.56     13268
+
+
+                    Buma    Dijkhoff      Klaver Marijnissen    Pechtold     Wilders
+Buma                 212          30          50          25         169         120
+Dijkhoff              48         246         117          20         468         298
+Klaver                36          53         920          58         626         392
+Marijnissen           18          18          99         185         147         199
+Pechtold              68         161         495          68        2193         829
+Wilders               45         127         228          35         529        3936
+
+> Final test on 10% of the data
+             precision    recall  f1-score   support
+
+       Buma       0.47      0.38      0.42        58
+   Dijkhoff       0.36      0.19      0.25       134
+     Klaver       0.48      0.45      0.46       241
+Marijnissen       0.52      0.31      0.39        71
+   Pechtold       0.52      0.56      0.54       444
+    Wilders       0.68      0.79      0.73       526
+
+avg / total       0.55      0.57      0.56      1474
+-----------------------------------------------------------------------------------------
+NGRAM 1,3
+LinearSVC
+
+> Starting 10 fold Cross-Validation
+> Training and predicting fold 10 out of 10
+             precision    recall  f1-score   support
+
+       Buma       0.53      0.30      0.38       606
+   Dijkhoff       0.36      0.15      0.21      1197
+     Klaver       0.48      0.43      0.45      2085
+Marijnissen       0.51      0.24      0.33       666
+   Pechtold       0.52      0.58      0.55      3814
+    Wilders       0.67      0.81      0.73      4900
+
+avg / total       0.55      0.57      0.55     13268
+
+
+                    Buma    Dijkhoff      Klaver Marijnissen    Pechtold     Wilders
+Buma                 181          26          52          16         202         129
+Dijkhoff              38         175         116          17         514         337
+Klaver                28          43         900          40         654         420
+Marijnissen           15          11          98         160         156         226
+Pechtold              49         133         483          60        2221         868
+Wilders               33          95         230          21         541        3980
+
+> Final test on 10% of the data
+             precision    recall  f1-score   support
+
+       Buma       0.49      0.29      0.37        58
+   Dijkhoff       0.42      0.16      0.23       134
+     Klaver       0.49      0.44      0.46       241
+Marijnissen       0.62      0.25      0.36        71
+   Pechtold       0.51      0.57      0.54       444
+    Wilders       0.67      0.81      0.73       526
+
+avg / total       0.56      0.57      0.55      1474
+------------------------------------------------------------------------------------------

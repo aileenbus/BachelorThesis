@@ -1,0 +1,87 @@
+Score output
+
+SGD vectorizer:
+Instellingen:
+- tweettokenizer
+- vec = TfidfVectorizer(preprocessor=None, tokenizer=tokenizer,  ngram_range=[1,1], analyzer='word', lowercase=True) #strip_accents='unicode'
+- sgd = SGDClassifier(loss='hinge', penalty='l2', alpha=1e-3, random_state=42, max_iter=10, tol=None, verbose=3, n_jobs=-1)
+
+             precision    recall  f1-score   support
+
+       Buma       0.75      0.15      0.25        60
+   Dijkhoff       0.17      0.05      0.08       129
+     Klaver       0.58      0.15      0.23       226
+Marijnissen       0.62      0.13      0.22        76
+   Pechtold       0.48      0.49      0.49       431
+    Wilders       0.51      0.85      0.64       552
+
+avg / total       0.50      0.50      0.45      1474
+
+--------------------------------------------------------
+
+- vec = TfidfVectorizer(preprocessor=None, tokenizer=tokenizer,  ngram_range=[1,3], analyzer='word', lowercase=True, strip_accents='unicode')
+- sgd = SGDClassifier(n_jobs=-1)
+(5000 dataset)
+             precision    recall  f1-score   support
+
+       Buma       0.25      0.27      0.26        60
+   Dijkhoff       0.28      0.04      0.07       129
+     Klaver       0.42      0.37      0.39       226
+Marijnissen       0.50      0.04      0.07        76
+   Pechtold       0.57      0.42      0.48       431
+    Wilders       0.56      0.88      0.68       552
+
+avg / total       0.50      0.53      0.48      1474
+
+--------------------------------------------------------
+vec = TfidfVectorizer(preprocessor=None, 
+                          tokenizer=tokenizer,  
+                          ngram_range=[1,3], 
+                          analyzer='word', 
+                          lowercase=True, 
+                          strip_accents='unicode')
+
+sgd = SGDClassifier(loss='hinge', 
+                        penalty='l2', 
+                        alpha=1e-3, 
+                        random_state=42, 
+                        max_iter=10, 
+                        tol=None, 
+                        verbose=3, 
+                        n_jobs=-1)
+
+5000 trainingsset
+
+             precision    recall  f1-score   support
+
+       Buma       1.00      0.07      0.12        60
+   Dijkhoff       1.00      0.02      0.03       129
+     Klaver       0.52      0.11      0.18       226
+Marijnissen       0.50      0.04      0.07        76
+   Pechtold       0.46      0.45      0.45       431
+    Wilders       0.49      0.89      0.64       552
+
+avg / total       0.55      0.49      0.41      1474
+
+----------------------------------------------------------
+
+- Dutch stemmer
+- vec = TfidfVectorizer(preprocessor=None, tokenizer=tokenizer,  ngram_range=[1,3], analyzer='word', lowercase=True, strip_accents='unicode')
+- sgd = SGDClassifier(n_jobs=-1)
+5000 trainingsset
+
+             precision    recall  f1-score   support
+
+       Buma       0.71      0.08      0.15        60
+   Dijkhoff       0.50      0.03      0.06       129
+     Klaver       0.44      0.36      0.40       226
+Marijnissen       0.67      0.08      0.14        76
+   Pechtold       0.56      0.39      0.46       431
+    Wilders       0.51      0.90      0.65       552
+
+avg / total       0.53      0.51      0.46      1474
+
+----------------------------------------------------------
+
+
+

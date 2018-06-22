@@ -1,0 +1,239 @@
+Trainingsresultaten 1
+
+SDGClassifier zonder cross validation
+
+-----------------
+ZONDER STEMMER, N-GRAM RANGE 1,3
+MODIFIED_HUBER default
+             precision    recall  f1-score   support
+
+       Buma       0.15      0.03      0.05        60
+   Dijkhoff       0.11      0.01      0.01       129
+     Klaver       0.34      0.08      0.13       226
+Marijnissen       0.67      0.03      0.05        76
+   Pechtold       0.37      0.79      0.51       431
+    Wilders       0.70      0.61      0.65       552
+
+avg / total       0.47      0.47      0.42      1474
+------------
+ZONDER STEMMER, N-GRAM RANGE 1,3
+LOG default
+
+             precision    recall  f1-score   support
+
+       Buma       0.33      0.05      0.09        60
+   Dijkhoff       0.09      0.02      0.04       129
+     Klaver       0.61      0.05      0.09       226
+Marijnissen       0.00      0.00      0.00        76
+   Pechtold       0.51      0.33      0.40       431
+    Wilders       0.46      0.93      0.61       552
+
+avg / total       0.43      0.46      0.37      1474
+------------
+ZONDER STEMMER, N-GRAM RANGE 1,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.28      0.13      0.18        60
+   Dijkhoff       0.11      0.01      0.01       129
+     Klaver       0.26      0.51      0.35       226
+Marijnissen       0.33      0.03      0.05        76
+   Pechtold       0.50      0.35      0.41       431
+    Wilders       0.60      0.76      0.67       552
+
+avg / total       0.45      0.47      0.43      1474
+------------
+------------
+
+------------
+MET STEMMER, N-GRAM RANGE 1,1
+HINGE default
+             precision    recall  f1-score   support
+
+       Buma       0.60      0.05      0.09        60
+   Dijkhoff       0.11      0.36      0.17       129
+     Klaver       0.43      0.18      0.25       226
+Marijnissen       0.36      0.07      0.11        76
+   Pechtold       0.44      0.46      0.45       431
+    Wilders       0.69      0.59      0.63       552
+
+avg / total       0.50      0.42      0.43      1474
+
+------------
+ZONDER STEMMER, N-GRAM RANGE 1,1
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.20      0.20      0.20        60
+   Dijkhoff       0.22      0.05      0.08       129
+     Klaver       0.32      0.42      0.36       226
+Marijnissen       0.12      0.33      0.18        76
+   Pechtold       0.50      0.16      0.24       431
+    Wilders       0.58      0.78      0.66       552
+
+avg / total       0.44      0.43      0.40      1474
+
+------------
+MET STEMMER, N-GRAM RANGE 2,2
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.00      0.00      0.00        60
+   Dijkhoff       0.20      0.01      0.01       129
+     Klaver       0.40      0.13      0.19       226
+Marijnissen       0.25      0.01      0.03        76
+   Pechtold       0.44      0.48      0.46       431
+    Wilders       0.50      0.83      0.63       552
+
+avg / total       0.41      0.47      0.40      1474
+
+------------
+ZONDER STEMMER, N-GRAM RANGE 2,2
+HINGE default
+
+            precision    recall  f1-score   support
+
+       Buma       0.00      0.00      0.00        60
+   Dijkhoff       0.00      0.00      0.00       129
+     Klaver       0.42      0.14      0.21       226
+Marijnissen       0.17      0.01      0.02        76
+   Pechtold       0.45      0.53      0.49       431
+    Wilders       0.53      0.84      0.65       552
+
+avg / total       0.40      0.49      0.42      1474
+
+------------
+MET STEMMER, N-GRAM RANGE 3,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.07      0.07      0.07        60
+   Dijkhoff       0.19      0.02      0.04       129
+     Klaver       0.32      0.19      0.24       226
+Marijnissen       0.12      0.01      0.02        76
+   Pechtold       0.43      0.53      0.48       431
+    Wilders       0.57      0.75      0.65       552
+
+avg / total       0.41      0.47      0.43      1474
+
+------------
+ZONDER STEMMER, N-GRAM RANGE 3,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.00      0.00      0.00        60
+   Dijkhoff       0.17      0.01      0.01       129
+     Klaver       0.29      0.15      0.19       226
+Marijnissen       0.15      0.05      0.08        76
+   Pechtold       0.46      0.39      0.42       431
+    Wilders       0.49      0.85      0.62       552
+
+avg / total       0.38      0.46      0.39      1474
+
+------------
+MET STEMMER, N-GRAM RANGE 1,2
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.00      0.00      0.00        60
+   Dijkhoff       0.50      0.01      0.02       129
+     Klaver       0.50      0.04      0.07       226
+Marijnissen       0.00      0.00      0.00        76
+   Pechtold       0.37      0.80      0.50       431
+    Wilders       0.67      0.64      0.65       552
+
+avg / total       0.48      0.48      0.40      1474
+
+------------
+ZONDER STEMMER, N-GRAM RANGE 1,2
+HINGE default
+
+
+
+--------
+MET STEMMER, N-GRAM RANGE 2,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.04      0.02      0.02        60
+   Dijkhoff       0.25      0.01      0.02       129
+     Klaver       0.35      0.10      0.15       226
+Marijnissen       0.10      0.01      0.02        76
+   Pechtold       0.39      0.78      0.52       431
+    Wilders       0.68      0.64      0.66       552
+
+avg / total       0.45      0.49      0.43      1474
+
+------------
+ZONDER STEMMER, N-GRAM RANGE 2,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.14      0.08      0.10        60
+   Dijkhoff       0.15      0.05      0.07       129
+     Klaver       0.33      0.17      0.23       226
+Marijnissen       0.12      0.17      0.14        76
+   Pechtold       0.46      0.42      0.44       431
+    Wilders       0.56      0.78      0.66       552
+
+avg / total       0.42      0.46      0.43      1474
+
+
+
+--------
+MET STEMMER, N-GRAM RANGE 1,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.50      0.02      0.03        60
+   Dijkhoff       0.00      0.00      0.00       129
+     Klaver       0.29      0.47      0.36       226
+Marijnissen       0.43      0.08      0.13        76
+   Pechtold       0.53      0.22      0.31       431
+    Wilders       0.51      0.85      0.64       552
+
+avg / total       0.43      0.46      0.39      1474
+
+--------
+ZONDER STEMMER, N-GRAM RANGE 1,3
+HINGE default
+
+             precision    recall  f1-score   support
+
+       Buma       0.28      0.13      0.18        60
+   Dijkhoff       0.11      0.01      0.01       129
+     Klaver       0.26      0.51      0.35       226
+Marijnissen       0.33      0.03      0.05        76
+   Pechtold       0.50      0.35      0.41       431
+    Wilders       0.60      0.76      0.67       552
+
+avg / total       0.45      0.47      0.43      1474
+
+
+------------
+5000 trainingsset
+ZONDER STEMMER, N-GRAM RANGE 1,3
+HINGE, default, BALANCED
+
+             precision    recall  f1-score   support
+
+       Buma       0.21      0.33      0.26        60
+   Dijkhoff       0.36      0.04      0.07       129
+     Klaver       0.46      0.31      0.37       226
+Marijnissen       0.59      0.13      0.22        76
+   Pechtold       0.48      0.62      0.54       431
+    Wilders       0.65      0.75      0.70       552
+
+avg / total       0.52      0.53      0.50      1474
+
+
+---------
